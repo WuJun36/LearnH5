@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(241, 236, 236);
+}
+
+.regist{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgba(192, 236, 188, 0.603);
+}
+
+span{
+    font-size: 18px;
+}
+
+.regist-form{
+    padding: 35px;
+}
+
+
+input{
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+    padding:0 15px;
+}
+
+.hint{
+    font-size: 12px;
+    padding-left: 73px;
+    visibility: hidden;
+}
+
+.error{
+    
+    border: 0.5px solid red;
+    border-radius: 2.5px;
+}
+/* input:focus{
+    border-color: greenyellow;
+} */
+
+input:focus{
+    border: 0.5px solid greenyellow;
+}
+
+.regist-div-error{
+    color: #f56c6c;
+    font-size: 12px;
+    line-height: 1;
+    height: 20px;
+    padding-top: 4px;
+    padding-left: 73px;
+   
+}
+
